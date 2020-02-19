@@ -12,8 +12,9 @@
 <script src="https://kit.fontawesome.com/c76ff97545.js" crossorigin="anonymous"></script>
   </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Rafael Bregion Lourenço</a>
+<!--Menu-->
+  <nav class="navbar navbar-expand-lg navbar-light CorS">
+    <a class="navbar-brand titulosBrancos">Rafael Bregion Lourenço</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" 
     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
     aria-expanded="false" aria-label="Toggle navigation">
@@ -26,15 +27,15 @@
         </ul>
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Projetos</a>
+            <a class="nav-link titulosBrancos" href="#containerP">Projetos</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Sobre mim</a>
+            <a class="nav-link titulosBrancos" href="#containerS">Sobre Mim</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="Currículo - Rafael B. Lourenço.pdf">Currículo</a>
+            <a class="nav-link titulosBrancos" href="Currículo - Rafael B. Lourenço.pdf">Currículo</a>
           </li>
 
         </ul>
@@ -44,13 +45,88 @@
                 <div class="container">
                   <img class="foto-perfil" src="0.jpg" alt=""></img>
                   <h1 class="jumbotron-heading">Rafael Bregion Lourenço</h1>
-                  <p class="lead text-muted">Graduando Ciências da Computação pela Faculdades Metropolitanas Unidas - FMU. Bom conhecimento de inglês, linguagens de programação e bancos de dados.  Aptidão para o sistema operacional Windows, desenvolvimento mobile e Conhecimento de metodologias ágeis.</p>
+                  <p class="lead text-muted">Graduando Ciência da Computação pela Faculdades Metropolitanas Unidas - FMU. Bom conhecimento de inglês, linguagens de programação e bancos de dados. Aptidão para o sistema operacional Windows, desenvolvimento mobile e conhecimento de metodologias ágeis.</p>
                   <p>
-                    <a href="#" class="btn btn-dark my-2">Contato</a>
+                    <a href="#containerC" class="btn btn-dark my-2">Contato</a>
                   </p>
-                  <a href="https://www.linkedin.com/in/rafaelbregion/"><i class="fab fa-linkedin"></i></a> 
-                  <a href="https://github.com/RafaelBregion"><i class="fab fa-github"></i></a>
+                  <a href="https://www.linkedin.com/in/rafaelbregion/"><i class="icones fab fa-linkedin"></i></a> 
+                  <a href="https://github.com/RafaelBregion"><i class="icones fab fa-github"></i></a>
                 </div>
               </section>
-            </body>
-            </html>
+<!--Projetos-->
+              <div class="jumbotron CorP" id="containerP">
+        <div class="container"> 
+          <h2 class="jumbotron-heading text-center">Projetos</h2><br>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]"
+                 style="height: 225px; width: 100%; display: block;" src="Projeto-Biblioteca.png" data-holder-rendered="true">
+                <div class="card-body">
+                  <p class="card-text">Um sistema de uma biblioteca, com as seguintes funcionalidades de uma bliblioteca:
+                                       Cadastro de funcionário, leitor e livro, consulta de leitor e livro, relatorio de devolução e de empréstimo. </p>
+                    <ul>
+                      <li>Java</li>
+                      <li>MySQL</li>
+                    </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">                     
+                      <a href="https://github.com/RafaelBregion/ProjetoBiblioteca"><button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button></a>
+<!-- <a href="#"><button type="button" class="btn btn-sm btn-outline-primary">Código</button></a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]"
+                 style="height: 225px; width: 100%; display: block;" src="PNG.png" data-holder-rendered="true">
+                <div class="card-body">
+                  <p class="card-text">*Projeto em breve!*</p>
+<!-- <ul>
+  <li></li>
+  <li></li>
+  <li></li>     
+  <li></li>
+  <li></li>
+</ul> -->
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button>
+                    <button type="button" class="btn btn-sm btn-outline-dark">Código</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+<!--Sobre Mim-->
+  <section class="jumbotron text-center" id="containerS">
+      <div class="container">
+        <h2 class="jumbotron-heading">Sobre Mim</h2><br>
+        <p class="lead">Olá! Meu nome é Rafael, estou cursando Ciência da Computação, estarei finalizando meu curso em Dezembro de 2020. 
+                        Desde pequeno eu sou apaixonado por jogos, e sempre tive muito interesse em entender como era feito a criação de um jogo.
+                        Porém, quando comecei a cursar a faculdade, descobri que o mundo de programação era muito mais amplo do que imaginava,
+                        e que eu poderia aprender a programar não só jogos, e sim, qualquer coisa que estivesse ligado a tecnologia.
+                        </p>
+      </div>
+  </section>
+<!--Contato-->
+      <section class="CorP" id="containerC">
+        <div>
+          <div id="container-fluid"><br>
+            <h2 class="jumbotron-heading text-center ">Disponível para oportunidades</h2><br>
+            <h5 class="text-center">Email: rafaelblourenco@hotmail.com</h5>
+            <h5 class="text-center">Celular: (11) 99603-7575</h5><br>
+          </div>
+        </div>
+      </section>
+<!--Footer-->
+      <footer class="text-center">
+        <p>&copy;Rafael Bregion Lourenço</p>
+      </footer>
+</body>
+</html>
